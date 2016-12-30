@@ -1,23 +1,15 @@
-<div id="disqus_container">
-  <div class="share-con">
-    <script type="text/javascript" charset="utf-8">
-      (function(){
-        var param = {
-          url: 'http://henryyang1993.github.io{{ page.url }}',
-          type: '6',
-          title: '《{{ page.title }}》' + '- {{ page.description }}',
-          ralateUid: '1855270953',
-          rnd:new Date().valueOf()
-        }
-        var temp = [];
-        for( var p in param ){
-          temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
-        }
-        document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="86" height="16"></iframe>')
-      })()
-    </script>
-  </div>
+{% if site.disqus %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '{{ site.disqus }}';
 
-  <a href="#" class="comment" onclick="return false;">view comments</a>
-  <div id="disqus_thread"></div>
-</div>
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
