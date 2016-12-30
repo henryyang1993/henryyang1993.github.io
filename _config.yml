@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: Henry
+google_analytics: Henry
 title: Henry Yang
 
 defaults:
@@ -21,11 +21,9 @@ author:
   name: Henry
   email: yanghanyugg@gmail.com
   github: henryyang1993
-  twitter: yanghanyutwitte
   linkedin: hanyuy
-  bio: Your stylish, minimalist theme!
+  bio: Spend your money on the things money can buy. Spend your time on the things money can't buy.
 
-rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
