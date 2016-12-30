@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: Henry
-google_analytics: Henry
+disqus: Henry Yang
+google_analytics: Henry Yang
 title: Henry Yang
 
 defaults:
@@ -14,16 +14,20 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Henry
+      title: Henry Yang
 
 description: Stylish Jekyll Theme
 author:
-  name: Henry
+  name: Henry Yang
   email: yanghanyugg@gmail.com
   github: henryyang1993
+  twitter: yanghanyutwitte
+  weibo: henryyangmicroblog
   linkedin: hanyuy
-  bio: Spend your money on the things money can buy. Spend your time on the things money can't buy.
+  bio: 'Spend your money on the things money can buy. Spend your time on the things money can't buy.' 
+- Haruki Murakami
 
+rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
