@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Henry Yang
+      title: Henry Yang's Personal Page
 
 description: Stylish Jekyll Theme
 author:
@@ -23,6 +23,7 @@ author:
   github: henryyang1993
   twitter: yanghanyutwitte
   linkedin: hanyuy
+  weibo: henryyangmicroblog
   bio: I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what's next.
   email_md5: 1f6be677c6135b37f5080532f3b20008
 
