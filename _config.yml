@@ -24,15 +24,12 @@ author:
   twitter: yanghanyutwitte
   linkedin: hanyuy
   weibo: henryyangmicroblog
-  bio: I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what's next.
+  bio: Learn and Be Curious
   email_md5: 1f6be677c6135b37f5080532f3b20008
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-
-# set it as url of an image
-# sidebar_background_image: https://drive.google.com/file/d/1XOdE2YLtwaVhE-DQP2szXK-ZyjfrIkhc/view
 
 BASE_PATH:
 
